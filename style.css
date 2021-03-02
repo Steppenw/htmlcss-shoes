@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.model {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  color: yellow;
+}
+
+.model:last-child {
+  color: green;
+}
+
+.model.mod1 {
+  background-color: red;
+}
+
+.model.mod2 {
+  background-color: green;
+}
+
+.model.mod3 {
+  background-color: yellow;
+}
+
+.absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.absolute img {
+  width: 90%;
+}
